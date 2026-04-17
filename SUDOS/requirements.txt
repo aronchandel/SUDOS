@@ -1,0 +1,7 @@
+# SUDOS Dependencies
+# The core algorithms are built entirely on Python's Standard Library (no pip install needed to run main.py).
+
+# --- Optional Development & Data Visualization Libraries ---
+# networkx==3.2.1     # Useful for advanced graph modeling if expanding SUDOS later
+# matplotlib==3.8.3   # Useful for visualizing the route paths
+# pytest==8.0.2       # For running unit tests

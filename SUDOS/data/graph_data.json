@@ -1,0 +1,23 @@
+{
+    "start_depot": "A",
+    "delivery_locations": ["C", "F", "H", "J"],
+    "nodes": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+    "edges": [
+        {"u": "A", "v": "B", "weight": 5},
+        {"u": "A", "v": "C", "weight": 15},
+        {"u": "B", "v": "C", "weight": 8},
+        {"u": "B", "v": "D", "weight": 10},
+        {"u": "B", "v": "E", "weight": 12},
+        {"u": "C", "v": "F", "weight": 4},
+        {"u": "D", "v": "E", "weight": 3},
+        {"u": "D", "v": "G", "weight": 9},
+        {"u": "E", "v": "H", "weight": 14},
+        {"u": "F", "v": "G", "weight": 6},
+        {"u": "G", "v": "H", "weight": 5},
+        {"u": "G", "v": "I", "weight": 12},
+        {"u": "H", "v": "I", "weight": 8},
+        {"u": "H", "v": "J", "weight": 10},
+        {"u": "I", "v": "J", "weight": 4},
+        {"u": "A", "v": "J", "weight": 30}
+    ]
+}
